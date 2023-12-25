@@ -131,7 +131,6 @@ class InlineResultContainer:
         message_pattern=None,
         url_pattern=None,
     ) -> Set[InlineResult]:
-
         # TODO:
         # article_types: List[str] = None,
 

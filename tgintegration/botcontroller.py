@@ -310,7 +310,6 @@ class BotController:
     ) -> AsyncGenerator[InlineResult, None]:
         num_returned: int = 0
         while num_returned <= limit:
-
             for result in bot_results.results:
                 yield InlineResult(self, result, bot_results.query_id)
                 num_returned += 1
