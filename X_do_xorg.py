@@ -1,5 +1,5 @@
 """
-A tgintegration script plays Idle Town for you (@IdleTownBot).
+A tgintegration script plays Idle Tow for you (@IdleTownBot).
 
 This example uses a `config.ini` file for configuration (see examples/README).
 It also expects that you have set up the bot with a town name and English as language.
